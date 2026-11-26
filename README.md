@@ -15,7 +15,8 @@ A 64-character one-star review of the Moon. The grievance is tides — the Moon 
 ## Run it
 
 ```sh
-MAKEFUN_OUTPUT_DIR=/tmp/moon-out npx tsc main.ts --module nodenext --target es2022 --outDir /tmp/moon-build && node /tmp/moon-build/main.js
+MAKEFUN_OUTPUT_DIR=/tmp/moon-out node main.ts
+cat /tmp/moon-out/entry.txt
 ```
 
 ---
